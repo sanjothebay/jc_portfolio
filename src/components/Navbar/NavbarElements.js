@@ -1,21 +1,22 @@
+import React from 'react'
 import styled from "styled-components";
 import { Link as linkRouter } from "react-router-dom";
 import { Link as linkScroll } from "react-scroll";
 
 export const Nav = styled.nav`
-background: #000;
-// margin-top: -80px;
-dispay: flex;
-justify-contect: center
-font-size: 1rem;
-postition: sticky;
-top: 0;
-z-index: 10;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 
-@media screen and (max-width: 960px){
-    transition: 0:8s all ease;
-}
+  @media screen and (max-width: 960px){
+      transition: 0.8s all ease;
+  }
 `;
+
 
 export const NavbarContainer = styled.nav`
   display: flex;
@@ -28,7 +29,7 @@ export const NavbarContainer = styled.nav`
 `;
 
 export const NavLogo = styled(linkRouter)`
-color: red:
+color: red;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
@@ -72,13 +73,13 @@ height: 80px;
 `;
 
 export const NavLinks = styled(linkScroll)`
-color: red:
+color: red;
 display: flex;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
-curser: pointer;
+cursor: pointer;
 
 &.active {
     border-bottom: 3px solid #01bf71;
