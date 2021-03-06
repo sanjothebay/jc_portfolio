@@ -1,4 +1,4 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
 import { Link as linkRouter } from "react-router-dom";
 import { Link as linkScroll } from "react-scroll";
@@ -22,7 +22,7 @@ export const CloseIcon = styled(FaTimes)`
   color: #ffffff;
 `;
 
-export const icon = styled.div`
+export const Icon = styled.div`
   position: absolute;
   top: 1.2rem;
   right: 1.5rem;
@@ -31,6 +31,7 @@ export const icon = styled.div`
   cursor: pointer;
   outline: none;
 `;
+
 export const SidebarWrapper = styled.div`
   color: #ffffff;
 `;
@@ -69,7 +70,7 @@ export const SideBtnWrap = styled.div`
   justify-content: center;
 `;
 
-export const SidevarRoute = styled(linkRouter)`
+export const SidebarRoute = styled(linkRouter)`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;
