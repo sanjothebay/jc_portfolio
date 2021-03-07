@@ -29,11 +29,11 @@ const Navbar = ({ toggle }) => {
               <NavLinks to="portfolio">Portfolio</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact</NavLinks>
+              <NavLinks to="/contactme">Contact Me</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="contact">Contact Me</NavBtnLink>
+            <NavBtnLink to="/contactme">Contact Me</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
