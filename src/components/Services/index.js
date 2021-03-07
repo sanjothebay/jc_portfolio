@@ -27,71 +27,131 @@ const Services = () => {
           {<ServicesIcon src={Icon1} />}
           <ServicesP>
             Deploy App:{" "}
-            <Link
-              to="https://jeck24.github.io/Project1/"
+            <a
+              href="https://jeck24.github.io/Project1/"
               target="_blank"
               aria-label="github"
             >
               <FaGithubSquare />
-            </Link>{" "}
+            </a>{" "}
             RepoLink:{" "}
-            <Link
-              to="https://jeck24.github.io/Project1/"
+            <a
+              href="https://github.com/jeck24/Project1/tree/JC"
               target="_blank"
               aria-label="github"
             >
               <FaProjectDiagram />
-            </Link>
+            </a>
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesH2>Weather App</ServicesH2>
           <ServicesIcon src={Icon2} />
           <ServicesP>
-            Deploy App:
-            <FaGithubSquare />
-            --RepoLink:
-            <FaProjectDiagram />
+            Deploy App:{" "}
+            <a
+              href="https://sanjothebay.github.io/weather_app_tech_monterrey_hw/"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaGithubSquare />
+            </a>{" "}
+            RepoLink:{" "}
+            <a
+              href="https://github.com/sanjothebay/weather_app_tech_monterrey_hw"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaProjectDiagram />
+            </a>
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesH2>Day Planner</ServicesH2>
           <ServicesIcon src={Icon3} />
           <ServicesP>
-            Deploy App:
-            <FaGithubSquare />
-            --RepoLink:
-            <FaProjectDiagram />
+            Deploy App:{" "}
+            <a
+              href="https://sanjothebay.github.io/tech_monterrey_fourth_hw_schedule_app/"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaGithubSquare />
+            </a>{" "}
+            RepoLink:{" "}
+            <a
+              href="https://github.com/sanjothebay/tech_monterrey_fourth_hw_schedule_app"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaProjectDiagram />
+            </a>
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesH2> Chore Project app</ServicesH2>
           <ServicesIcon src={Icon4} />
           <ServicesP>
-            Deploy App:
-            <FaGithubSquare />
-            --RepoLink:
-            <FaProjectDiagram />
+            Deploy App:{" "}
+            <a
+              href="https://protected-island-07471.herokuapp.com/"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaGithubSquare />
+            </a>{" "}
+            RepoLink:{" "}
+            <a
+              href="https://github.com/pegasus-1982/Project2-Chores/tree/JC"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaProjectDiagram />
+            </a>
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesH2>Team Profile Genarator</ServicesH2>
           <ServicesIcon src={Icon5} />
           <ServicesP>
-            Deploy App:
-            <FaGithubSquare />
-            --RepoLink:
-            <FaProjectDiagram />
+            Deploy App:{" "}
+            <a
+              href="https://sanjothebay.github.io/Team_Profile_Generator/"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaGithubSquare />
+            </a>{" "}
+            RepoLink:{" "}
+            <a
+              href="https://github.com/sanjothebay/Team_Profile_Generator"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaProjectDiagram />
+            </a>
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesH2>User Directory</ServicesH2>
           <ServicesIcon src={Icon6} />
           <ServicesP>
-            Deploy App:
-            <FaGithubSquare />
-            --RepoLink:
-            <FaProjectDiagram />
+            Deploy App:{" "}
+            <a
+              href="https://sanjothebay.github.io/user_directory/"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaGithubSquare />
+            </a>{" "}
+            RepoLink:{" "}
+            <a
+              href="https://github.com/sanjothebay/user_directory"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaProjectDiagram />
+            </a>
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
