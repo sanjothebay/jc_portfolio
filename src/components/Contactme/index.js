@@ -4,7 +4,7 @@ import {
   FormWrap,
   Icon,
   FormContent,
-  From,
+  Form,
   FormH1,
   FormLabel,
   FormInput,
@@ -19,7 +19,7 @@ function ContactMe() {
         <FormWrap>
           <Icon to="/">JC</Icon>
           <FormContent>
-            <From action="#">
+            <Form action="#">
               <FormH1>Contact me Here!</FormH1>
               <FormLabel htmlFor="for">Name</FormLabel>
               <FormInput type="name" required />
@@ -29,7 +29,7 @@ function ContactMe() {
               <FormInput type="message" required />
               <FormButton type="submit">Submit</FormButton>
               <Text>Thank You!</Text>
-            </From>
+            </Form>
           </FormContent>
         </FormWrap>
       </Container>
