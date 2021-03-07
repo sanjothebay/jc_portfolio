@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaStackOverflow, FaGithubSquare } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
@@ -34,21 +34,24 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Resume</FooterLinkTitle>
-              <FooterLink>
-                <a to="../../../public/pdf_download/JC RODRIGUEZ RESUME.pdf" target="_blank" download>
-                  Download
-                </a>
+              <FooterLink
+                to="../../../pdf_download/JC RODRIGUEZ RESUME.pdf"
+                target="_blank"
+                download
+              >
+                {" "}
+                Download
               </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Git HUB</FooterLinkTitle>
-              <FooterLink to="https://github.com/sanjothebay" target="_blank">
+              <FooterLink href="https://github.com/sanjothebay" target="_blank">
                 Repo`s
               </FooterLink>
               <FooterLink
-                to="https://stackoverflow.com/users/13977233/jc"
+                href="https://stackoverflow.com/users/13977233/jc"
                 target="_blank"
               >
                 stackoverflow
@@ -86,7 +89,7 @@ const Footer = () => {
                 target="_blank"
                 aria-label="github"
               >
-                <FaLinkedin />
+                <FaGithubSquare />
               </SocialIconlink>
               <SocialIconlink
                 href="https://www.linkedin.com/in/jc-rodriguez-805339180/"
@@ -98,9 +101,9 @@ const Footer = () => {
               <SocialIconlink
                 href="https://stackoverflow.com/users/13977233/jc"
                 target="_blank"
-                aria-label="stackoverflow"
+                aria-label="Stackoverflow"
               >
-                <FaLinkedin />
+                <FaStackOverflow />
               </SocialIconlink>
             </SocialIcons>
           </SocialMediaWrap>
