@@ -68,7 +68,7 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                   activeClass="active"
                 >
-                  Portfolio
+                  Skills
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -81,7 +81,7 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                   activeClass="active"
                 >
-                  Contact Me
+                  Portfolio
                 </NavLinks>
               </NavItem>
             </NavMenu>
