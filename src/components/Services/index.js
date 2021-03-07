@@ -1,7 +1,7 @@
 import React from "react";
-// import { Icon1 } from "../../images/codegenarator";
-// import { Icon2 } from "../../images/codegenarator";
-// import { Icon3 } from "../../images/codegenarator";
+import { Icon1 } from "../../images/codegenarator";
+import { Icon2 } from "../../images/codegenarator";
+import { Icon3 } from "../../images/codegenarator";
 import {
   ServicesContainer,
   ServicesH1,
