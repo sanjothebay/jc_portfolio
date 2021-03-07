@@ -26,8 +26,8 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1> JC Porfolio </HeroH1>
-        <HeroP>Hello My Name is JC A Full Stack Web Developer</HeroP>
+        <HeroH1> JC Rodriguez </HeroH1>
+        <HeroP>Full-Stack Web Developer</HeroP>
         <HeroBtnWapper>
           <Button
             to="home"

@@ -1,7 +1,10 @@
 import React from "react";
-// import { Icon1 } from "../../images/codegenarator";
-// import { Icon2 } from "../../images/codegenarator";
-// import { Icon3 } from "../../images/codegenarator";
+import Icon1 from "../../images/project1.JPG";
+import Icon2 from "../../images/weatherapi.JPG";
+import Icon3 from "../../images/dayplanner.JPG";
+import Icon4 from "../../images/project2.JPG";
+import Icon5 from "../../images/teamgen.JPG";
+import Icon6 from "../../images/userdirectory.JPG";
 import {
   ServicesContainer,
   ServicesH1,
@@ -18,33 +21,33 @@ const Services = () => {
       <ServicesH1>My Portfolio</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          {<ServicesIcon /* src={Icon1} *//> }
-          <ServicesH2>My Application Created 1</ServicesH2>
+          <ServicesH2>Sports App Project</ServicesH2>
+          {<ServicesIcon src={Icon1} />}
           <ServicesP> JC's Application and github Repo's 1</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon /* src={Icon2} */ />
-          <ServicesH2>My Application Created 2</ServicesH2>
+          <ServicesH2>Weather App</ServicesH2>
+          <ServicesIcon src={Icon2} />
           <ServicesP> JC's Application and github Repo 2</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon /* src={Icon3} */ />
-          <ServicesH2>My Application Created 3</ServicesH2>
+          <ServicesH2>Day Planner</ServicesH2>
+          <ServicesIcon src={Icon3} />
           <ServicesP> JC's Application and github Repo 3</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon /* src={Icon4} */ />
-          <ServicesH2>My Application Created 4</ServicesH2>
+          <ServicesH2> Chore Project app</ServicesH2>
+          <ServicesIcon src={Icon4} />
           <ServicesP> JC's Application and github Repo 4</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon /* src={Icon5} */ />
-          <ServicesH2>My Application Created 5</ServicesH2>
+          <ServicesH2>Team Profile Genarator</ServicesH2>
+          <ServicesIcon src={Icon5} />
           <ServicesP> JC's Application and github Repo 5</ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon /* src={Icon6} */ />
-          <ServicesH2>My Application Created 6</ServicesH2>
+          <ServicesH2>User Directory</ServicesH2>
+          <ServicesIcon src={Icon6} />
           <ServicesP> JC's Application and github Repo 6</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
