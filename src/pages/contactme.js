@@ -1,9 +1,12 @@
 import React from "react";
+import ScrollToTop from "../components/ScrollToTop";
+import ContactMe from "../components/Contactme";
 
 const ContactmePage = () => {
   return (
     <div>
-      <h1>Contect Me Page</h1>
+      <ScrollToTop />
+      <ContactMe/>
     </div>
   );
 };

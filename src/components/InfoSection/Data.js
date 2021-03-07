@@ -34,9 +34,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: "contact",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Contact",
   headline: "Text inserted will be big",
   description: "Small text that will be inserted on bottom on big text !",
@@ -44,7 +44,7 @@ export const homeObjThree = {
   imgStart: false,
   img: require("../../images/svg-12.svg"),
   alt: "Me",
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
 };
