@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaGithubSquare, FaProjectDiagram } from "react-icons/fa";
 import Icon1 from "../../images/project1.JPG";
 import Icon2 from "../../images/weatherapi.JPG";
@@ -25,10 +26,22 @@ const Services = () => {
           <ServicesH2>Sports App Project</ServicesH2>
           {<ServicesIcon src={Icon1} />}
           <ServicesP>
-            Deploy App:
-            <FaGithubSquare />
-            --RepoLink:
-            <FaProjectDiagram />
+            Deploy App:{" "}
+            <Link
+              to="https://jeck24.github.io/Project1/"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaGithubSquare />
+            </Link>{" "}
+            RepoLink:{" "}
+            <Link
+              to="https://jeck24.github.io/Project1/"
+              target="_blank"
+              aria-label="github"
+            >
+              <FaProjectDiagram />
+            </Link>
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -54,7 +67,7 @@ const Services = () => {
         <ServicesCard>
           <ServicesH2> Chore Project app</ServicesH2>
           <ServicesIcon src={Icon4} />
-          <ServicesP >
+          <ServicesP>
             Deploy App:
             <FaGithubSquare />
             --RepoLink:
