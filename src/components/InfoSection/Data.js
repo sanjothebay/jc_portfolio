@@ -23,7 +23,7 @@ export const homeObjTwo = {
   lightTextDesc: false,
   topLine: "Skills",
   headline: "Profesional Skills",
-  description: "* Languages in Programming: HTML, CSS, JavaScript, JQuery, Python. * Databases: MySQL, MongoDB, SQLite, NoSQL, SAP Hanna, Oracle, AngularJS. * Tools: GitHub, GitBadh, Heroku, Node.js, VS Code, Bootstrap4, Foundation",
+  description: `* Languages in Programming: HTML, CSS, JavaScript, JQuery, Python.  * Databases: MySQL, MongoDB, SQLite, NoSQL, SAP Hanna, Oracle, AngularJS. * Tools: GitHub, GitBadh, Heroku, Node.js, VS Code, Bootstrap4, Foundation`,
   buttonLabel: "¡¡portfolio¡¡",
   imgStart: true,
   img: ("./images/desk.JPG"),
