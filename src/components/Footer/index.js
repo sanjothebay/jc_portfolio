@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaStackOverflow, FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin, FaStackOverflow, FaGithubSquare, FaRegFilePdf } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
@@ -27,13 +27,13 @@ const Footer = () => {
       <FooterWrap>
         <FooterLinksContainer>
           <FooterLinksWrapper>
-            <FooterLinkItems>
+            {/* <FooterLinkItems>
               <FooterLinkTitle>JC Rodriguez</FooterLinkTitle>
               <FooterLink to="#">Phone: +525614383816</FooterLink>
               <FooterLink to="#">Email: sanjothebay@gmail.com</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Resume</FooterLinkTitle>
+            </FooterLinkItems> */}
+            {/* <FooterLinkItems>
+              <FooterLinkTitle>Resume </FooterLinkTitle>
               <FooterLink
                 to="../../../pdf_download/JC RODRIGUEZ RESUME.pdf"
                 target="_blank"
@@ -42,20 +42,23 @@ const Footer = () => {
                 {" "}
                 Download
               </FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
-          <FooterLinksWrapper>
+            </FooterLinkItems> */}
+            {/* </FooterLinksWrapper>
+          {/* <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Git HUB</FooterLinkTitle>
-              <FooterLink href="https://github.com/sanjothebay" target="_blank">
+              
+
+              <FooterLink > 
+
                 Repo`s
               </FooterLink>
-              <FooterLink
-                href="https://stackoverflow.com/users/13977233/jc"
-                target="_blank"
-              >
+
+              <FooterLink>
                 stackoverflow
               </FooterLink>
+
+
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
@@ -71,7 +74,7 @@ const Footer = () => {
               >
                 Facebook
               </FooterLink>
-            </FooterLinkItems>
+            </FooterLinkItems> */}
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
@@ -79,9 +82,19 @@ const Footer = () => {
             <SocialLogo to="/" onClick={toggleHome}>
               JC Rodriguez
             </SocialLogo>
+            <FooterLinkItems>
+              <FooterLinkTitle></FooterLinkTitle>
+              <FooterLink
+                to="../../../pdf_download/JC RODRIGUEZ RESUME.pdf"
+                target="_blank"
+                download
+              >
+                <FaRegFilePdf />Download Resume
+              </FooterLink>
+            </FooterLinkItems>
             <WebsiteRights>
-              JC Rodriguez © {new Date().getFullYear()} All Rights To JC
-              Reserved
+              Phone: +525614383816 || Email: sanjothebay@gmail.com ©{" "}
+              {new Date().getFullYear()}
             </WebsiteRights>
             <SocialIcons>
               <SocialIconlink
