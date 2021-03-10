@@ -5,23 +5,6 @@ https://sanjothebay.github.io/jc_portfolio/
 
 
 
-# user_directory
-
-https://sanjothebay.github.io/user_directory/
-
-https://github.com/sanjothebay/user_directory
-
-
-# user_directory
-
-https://sanjothebay.github.io/user_directory/
-
-https://github.com/sanjothebay/user_directory
-
-
-![image](https://user-images.githubusercontent.com/67298961/109753810-77d37100-7ba8-11eb-827c-33d5c08b3840.png)
-
-
 # Table of contents
 
 1. [Instruction](#Instruction)
