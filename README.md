@@ -5,6 +5,9 @@ https://github.com/sanjothebay/jc_portfolio
 https://sanjothebay.github.io/jc_portfolio/
 
 
+![image](https://user-images.githubusercontent.com/67298961/110899141-2fae0000-82c6-11eb-896d-32a98e8f5171.png)
+
+
 ![51e4kp](https://user-images.githubusercontent.com/67298961/110898878-b31b2180-82c5-11eb-99bb-18d48b865b0e.gif)
 
 
