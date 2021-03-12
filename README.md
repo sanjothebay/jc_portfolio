@@ -1,8 +1,11 @@
 # Porfolio
 
 https://github.com/sanjothebay/jc_portfolio
+
 https://sanjothebay.github.io/jc_portfolio/
 
+
+![51e4kp](https://user-images.githubusercontent.com/67298961/110898878-b31b2180-82c5-11eb-99bb-18d48b865b0e.gif)
 
 
 # Table of contents
@@ -143,6 +146,8 @@ npm predeploy To run npm run build
 
 
 ## Submission Video <a name="Submission_Video"></a>
+
+![51e4kp](https://user-images.githubusercontent.com/67298961/110898878-b31b2180-82c5-11eb-99bb-18d48b865b0e.gif)
 
 
 ## LICENSE <a name="LICENSE"></a>
