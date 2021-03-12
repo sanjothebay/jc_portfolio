@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaStackOverflow, FaGithubSquare } from "react-icons/fa";
 import { animateScroll as scroll } from "react-scroll";
+import PDF from "../../pdf_download/JC RODRIGUEZ RESUME.pdf";
 import {
   FooterContainer,
   FooterWrap,
@@ -35,7 +36,7 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Resume</FooterLinkTitle>
               <FooterLink
-                to="../../../pdf_download/JC RODRIGUEZ RESUME.pdf"
+                to={PDF}
                 target="_blank"
                 download
               >
