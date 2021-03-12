@@ -156,7 +156,6 @@ const Services = () => {
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
-    
   );
 };
 
