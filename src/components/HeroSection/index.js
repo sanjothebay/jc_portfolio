@@ -28,7 +28,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1> JC Rodriguez </HeroH1>
         <HeroP>Full-Stack Web Developer</HeroP>
-        <HeroBtnWapper>
+        {/* <HeroBtnWapper>
           <Button
             to="home"
             onMouseEnter={OnHover}
@@ -43,7 +43,7 @@ const HeroSection = () => {
           >
             Contact Me {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
-        </HeroBtnWapper>
+        </HeroBtnWapper> */}
       </HeroContent>
     </HeroContainer>
   );
