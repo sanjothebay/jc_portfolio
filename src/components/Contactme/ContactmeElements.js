@@ -10,11 +10,7 @@ export const Container = styled.div`
   top: 0;
   z-index: 0;
   overflow: hidden;
-  background: linear-gradient(
-    108deg,
-    rgba(1, 147, 86, 1) 0%,
-    rgba(19, 201, 122, 1) 100%
-  );
+  background-image: url("https://media1.giphy.com/media/26tn33aiTi1jkl6H6/200.gif")
 `;
 
 export const FormWrap = styled.div`
@@ -87,7 +83,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-  background: #01bf71;
+  background: red;
   padding: 16px 0;
   border: none;
   border-radius: 4px;
