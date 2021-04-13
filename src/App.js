@@ -6,8 +6,7 @@ import ContactmePage from "./pages/contactme";
 
 const App = () => {
   return (
-    <Router>
-      <Router basename="/jc_portfolio"></Router>
+    <Router basename="/jc_portfolio">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/contactme" component={ContactmePage} />
