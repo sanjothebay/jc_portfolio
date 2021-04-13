@@ -87,7 +87,7 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
             <NavBtn>
               <NavBtnLink
-                to="/contactme"
+                to="Contactme"
                 smooth={true}
                 duration={500}
                 spy={true}
