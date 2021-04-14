@@ -35,11 +35,7 @@ const Footer = () => {
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Resume</FooterLinkTitle>
-              <FooterLink
-                to={PDF}
-                target="_blank"
-                download
-              >
+              <FooterLink to={PDF} target="_blank" download>
                 {" "}
                 Download
               </FooterLink>
@@ -48,12 +44,19 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Git HUB</FooterLinkTitle>
-              <FooterLink href="https://github.com/sanjothebay" target="_blank">
+              <FooterLink
+                to="https://github.com/sanjothebay"
+                href="https://github.com/sanjothebay"
+                target="_blank"
+                aria-label="github"
+              >
                 Repo`s
               </FooterLink>
               <FooterLink
+                to="https://stackoverflow.com/users/13977233/jc"
                 href="https://stackoverflow.com/users/13977233/jc"
                 target="_blank"
+                aria-label="Stackoverflow"
               >
                 stackoverflow
               </FooterLink>
@@ -61,14 +64,18 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
               <FooterLink
+                to="https://www.linkedin.com/in/jc-rodriguez-805339180/"
                 href="https://www.linkedin.com/in/jc-rodriguez-805339180/"
                 target="_blank"
+                aria-label="Linkedin"
               >
                 LinkedIn
               </FooterLink>
               <FooterLink
-                href="https://www.linkedin.com/in/jc-rodriguez-805339180/"
+                to="https://www.facebook.com/sanjothebay/"
+                href="https://www.facebook.com/sanjothebay/"
                 target="_blank"
+                aria-label="facebook"
               >
                 Facebook
               </FooterLink>
@@ -86,6 +93,7 @@ const Footer = () => {
             </WebsiteRights>
             <SocialIcons>
               <SocialIconlink
+                to="https://github.com/sanjothebay"
                 href="https://github.com/sanjothebay"
                 target="_blank"
                 aria-label="github"
@@ -93,6 +101,7 @@ const Footer = () => {
                 <FaGithubSquare />
               </SocialIconlink>
               <SocialIconlink
+                to="https://www.linkedin.com/in/jc-rodriguez-805339180/"
                 href="https://www.linkedin.com/in/jc-rodriguez-805339180/"
                 target="_blank"
                 aria-label="Linkedin"
@@ -100,6 +109,7 @@ const Footer = () => {
                 <FaLinkedin />
               </SocialIconlink>
               <SocialIconlink
+                to="https://stackoverflow.com/users/13977233/jc"
                 href="https://stackoverflow.com/users/13977233/jc"
                 target="_blank"
                 aria-label="Stackoverflow"
