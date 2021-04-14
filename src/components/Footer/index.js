@@ -50,7 +50,14 @@ const Footer = () => {
                 target="_blank"
                 aria-label="github"
               >
-                Repo`s
+                <a
+                  to="https://github.com/sanjothebay"
+                  href="https://github.com/sanjothebay"
+                  target="_blank"
+                  aria-label="github"
+                >
+                  github Repo
+                </a>
               </FooterLink>
               <FooterLink
                 to="https://stackoverflow.com/users/13977233/jc"
@@ -58,7 +65,14 @@ const Footer = () => {
                 target="_blank"
                 aria-label="Stackoverflow"
               >
-                stackoverflow
+                <a
+                  to="https://stackoverflow.com/users/13977233/jc"
+                  href="https://stackoverflow.com/users/13977233/jc"
+                  target="_blank"
+                  aria-label="Stackoverflow"
+                >
+                  Stackoverflow
+                </a>
               </FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
@@ -69,7 +83,14 @@ const Footer = () => {
                 target="_blank"
                 aria-label="Linkedin"
               >
-                LinkedIn
+                <a
+                  to="https://www.linkedin.com/in/jc-rodriguez-805339180/"
+                  href="https://www.linkedin.com/in/jc-rodriguez-805339180/"
+                  target="_blank"
+                  aria-label="linkedin"
+                >
+                  linkedin
+                </a>
               </FooterLink>
               <FooterLink
                 to="https://www.facebook.com/sanjothebay/"
@@ -77,7 +98,14 @@ const Footer = () => {
                 target="_blank"
                 aria-label="facebook"
               >
-                Facebook
+                <a
+                  to="https://www.facebook.com/sanjothebay/"
+                  href="https://www.facebook.com/sanjothebay/"
+                  target="_blank"
+                  aria-label="facebook"
+                >
+                  facebook
+                </a>
               </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
