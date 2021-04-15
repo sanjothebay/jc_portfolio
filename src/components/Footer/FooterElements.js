@@ -102,7 +102,7 @@ export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 24px;
+  width: 240px;
 `;
 
 export const SocialIconlink = styled.a`
