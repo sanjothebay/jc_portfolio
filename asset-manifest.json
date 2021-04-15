@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/jc_portfolio/static/css/main.6cac7691.chunk.css",
-    "main.js": "/jc_portfolio/static/js/main.8f881dbe.chunk.js",
-    "main.js.map": "/jc_portfolio/static/js/main.8f881dbe.chunk.js.map",
+    "main.css": "/jc_portfolio/static/css/main.61d0a6bd.chunk.css",
+    "main.js": "/jc_portfolio/static/js/main.0654feca.chunk.js",
+    "main.js.map": "/jc_portfolio/static/js/main.0654feca.chunk.js.map",
     "runtime-main.js": "/jc_portfolio/static/js/runtime-main.349a556b.js",
     "runtime-main.js.map": "/jc_portfolio/static/js/runtime-main.349a556b.js.map",
-    "static/js/2.7459f19f.chunk.js": "/jc_portfolio/static/js/2.7459f19f.chunk.js",
-    "static/js/2.7459f19f.chunk.js.map": "/jc_portfolio/static/js/2.7459f19f.chunk.js.map",
+    "static/js/2.5e2ac9e0.chunk.js": "/jc_portfolio/static/js/2.5e2ac9e0.chunk.js",
+    "static/js/2.5e2ac9e0.chunk.js.map": "/jc_portfolio/static/js/2.5e2ac9e0.chunk.js.map",
     "static/js/3.ac5533e3.chunk.js": "/jc_portfolio/static/js/3.ac5533e3.chunk.js",
     "static/js/3.ac5533e3.chunk.js.map": "/jc_portfolio/static/js/3.ac5533e3.chunk.js.map",
     "index.html": "/jc_portfolio/index.html",
-    "static/css/main.6cac7691.chunk.css.map": "/jc_portfolio/static/css/main.6cac7691.chunk.css.map",
-    "static/js/2.7459f19f.chunk.js.LICENSE.txt": "/jc_portfolio/static/js/2.7459f19f.chunk.js.LICENSE.txt",
+    "static/css/main.61d0a6bd.chunk.css.map": "/jc_portfolio/static/css/main.61d0a6bd.chunk.css.map",
+    "static/js/2.5e2ac9e0.chunk.js.LICENSE.txt": "/jc_portfolio/static/js/2.5e2ac9e0.chunk.js.LICENSE.txt",
     "static/media/JC.60a6cb03.JPG": "/jc_portfolio/static/media/JC.60a6cb03.JPG",
+    "static/media/JC_RODRIGUEZ_RESUME.028454c4.pdf": "/jc_portfolio/static/media/JC_RODRIGUEZ_RESUME.028454c4.pdf",
     "static/media/dayplanner.81965ca1.JPG": "/jc_portfolio/static/media/dayplanner.81965ca1.JPG",
     "static/media/desk.befe6f6f.JPG": "/jc_portfolio/static/media/desk.befe6f6f.JPG",
     "static/media/project1.11e25020.JPG": "/jc_portfolio/static/media/project1.11e25020.JPG",
@@ -24,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.349a556b.js",
-    "static/js/2.7459f19f.chunk.js",
-    "static/css/main.6cac7691.chunk.css",
-    "static/js/main.8f881dbe.chunk.js"
+    "static/js/2.5e2ac9e0.chunk.js",
+    "static/css/main.61d0a6bd.chunk.css",
+    "static/js/main.0654feca.chunk.js"
   ]
 }
